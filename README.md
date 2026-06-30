@@ -1,6 +1,6 @@
-# srsRAN-Quectel
+# OCUDU-Quectel
 
-Guide to setup to setup Host (5g core , srsRAN, controller) with Robot/Client (Quectel 5g modem, robot). We are able to cotroller a mini robot over a private 5g network.
+Guide to setup to setup Host (5g core , OCUDU, controller) with Robot/Client (Quectel 5g modem, robot). We are able to cotroller a mini robot over a private 5g network.
 
 ## Host
 
