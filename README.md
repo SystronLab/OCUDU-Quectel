@@ -1,6 +1,6 @@
 # OCUDU-Quectel
 
-Guide to setup to setup Host (5g core , OCUDU, controller) with Robot/Client (Quectel 5g modem, robot). We are able to control a mini robot over a private 5g network.
+Guide to setup to setup Host (5g core , OCUDU, controller) with Robot (Quectel 5g modem). We are able to control a robot over a private 5g network.
 
 # Running the setup
 
@@ -35,6 +35,8 @@ Just turn it on after the script is loaded
 # Configuring the setup
 
 ## Robot
+
+### Connectivity
 
 Insert the programmed SIM in the modem
 
@@ -184,3 +186,6 @@ sudo ip addr add 10.45.0.2/16 dev wwan0
 sudo iptables -F
 ```
 Now you can ping the Host on 10.45.0.1 and the UE on 10.45.0.2 (we have manually assigned the modem's IP address to the reciever machine by ip spoofing)
+
+
+### Loading the scripts
