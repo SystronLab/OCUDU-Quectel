@@ -15,14 +15,13 @@ Build gamepad_interface.c with `make`
 After the build is successful, run the udp client which sends the controller's commands to the udp server (running on robot) as JSON with
 
 ```bash
-./gamepad_interface -p 9020 -i 10.45.0.2
+./gamepad_interface -p 9020 -i 10.45.0.3 -g usb-D_TGZ_Controller_3E5296C0-event-joystick
 ```
-If there is a joystick detection issue, run
+If there is a joystick detection issue, find the -g to pass above with
 
 ```bash
 ls /dev/input/by-id
 ```
-verify that the event-joystic that shows up is the same in the code.
 
 ## Robot / Client
 
