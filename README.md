@@ -6,6 +6,7 @@ Guide to setup to setup Host (5g core , OCUDU, controller) with Robot/Client (Qu
 
 Run the 5g core
 
+Make sure the SIM has the IP address:  `10.45.0.2`
 Run the gNB stack
 
 Connect the controller to the Host
@@ -15,7 +16,7 @@ Build gamepad_interface.c with `make`
 After the build is successful, run the udp client which sends the controller's commands to the udp server (running on robot) as JSON with
 
 ```bash
-./gamepad_interface -p 9020 -i 10.45.0.3 -g usb-D_TGZ_Controller_3E5296C0-event-joystick
+./gamepad_interface -p 9020 -i 10.45.0.2 -g usb-D_TGZ_Controller_3E5296C0-event-joystick
 ```
 If there is a joystick detection issue, find the -g to pass above with
 
