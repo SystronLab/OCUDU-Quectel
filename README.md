@@ -1,12 +1,13 @@
 # OCUDU-Quectel
 
-Guide to setup to setup Host (5g core , OCUDU, controller) with Robot/Client (Quectel 5g modem, robot). We are able to cotroller a mini robot over a private 5g network.
+Guide to setup to setup Host (5g core , OCUDU, controller) with Robot/Client (Quectel 5g modem, robot). We are able to control a mini robot over a private 5g network.
 
-## Host
+## Host Steps
 
 Run the 5g core
 
 Make sure the SIM has the IP address:  `10.45.0.2`
+
 Run the gNB stack
 
 Connect the controller to the Host
