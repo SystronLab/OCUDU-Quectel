@@ -2,6 +2,8 @@
 
 Guide to setup to setup Host (5g core , OCUDU, controller) with Robot/Client (Quectel 5g modem, robot). We are able to control a mini robot over a private 5g network.
 
+# Running the setup
+
 ## Host Steps
 
 Run the 5g core
@@ -25,11 +27,18 @@ If there is a joystick detection issue, find the -g to pass above with
 ls /dev/input/by-id
 ```
 
-## Robot / Client
+## Robot Steps
+
+Just turn it on after the script is loaded
+
+
+# Configuring the setup
+
+## Robot
 
 Insert the programmed SIM in the modem
 
-Connect the Modem to the robot/client via usb
+Connect the Modem to the robot via usb. Make sure to use (1 to 1) usb cord and not the (1 to 2) usb cord that came with the quectel modem.
 
 Install ModemManager and start it on Boot
 
